@@ -1,6 +1,6 @@
 const btn = document.getElementById("btn");
 btn.addEventListener("click", function() {
-    location.href = "https://chatbot-application-dqqa.onrender.com/chatbot";
+    location.href = "https://chatbot-application-fbkz.onrender.com/";
 
 });
 const git = document.getElementById("git");
