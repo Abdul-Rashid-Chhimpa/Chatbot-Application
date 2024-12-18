@@ -1,0 +1,481 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.containor {
+    /* border: 0.1px solid black; */
+    height: auto;
+    overflow: hidden;
+}
+
+.containor .main-page {
+    /* border: 0.1px solid red; */
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.containor .main-page section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containor .main-page section div {
+    border-radius: 5px;
+    height: auto;
+    /* position: fixed; */
+    text-align: center;
+    /* width: 100%;
+    top: 0;
+    right: 1;
+    backdrop-filter: blur(50px);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    /* border: 0.1px solid red; */
+}
+
+.containor .main-page section h1 {
+    background: -webkit-linear-gradient(115deg, #a64949, #6168a9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containor .main-page section div label span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-top: 12px;
+    background: -webkit-linear-gradient(115deg, #0c656f, #fc435c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.containor .main-page section div label img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    animation: gemini-star 8s infinite linear;
+    mix-blend-mode: multiply;
+}
+
+@keyframes gemini-star {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.containor .main-page section h2 {
+    font-size: 2rem;
+    margin-left: 5px;
+    font-weight: 200;
+    color: rgb(125, 131, 137);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containor2 label{
+    /* border: 0.1px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: auto;
+  
+}
+
+/* Spinner Container */
+.containor2 .spinnerContainor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.containor2 .spinnerContainor span{
+    font-size: 1.2rem;
+    color: #6168a9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.containor2 .spinnerContainor .spinner {
+    width: 25px;
+    height: 25px;
+    border: 5px solid rgba(0, 0, 0, 0.2); /* Light border */
+    border-top: 5px solid #3498db; /* Dark border */
+    border-radius: 50%; /* Make it circular */
+    animation: spin 1s linear infinite; /* Infinite spinning animation */
+}
+
+/* Keyframes for the spinning animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.containor2 label span{
+    /* border: 0.1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.containor2 label span #editInput{
+    width: 18px;
+    cursor: pointer;
+    height: 18px;
+    margin-top: 2px;
+}
+.containor2 label span #editInput title{
+    font-size: 2rem;
+    color: #a64949;
+}
+.containor2 label span #editInput:hover{
+    width: 19px;
+    cursor: pointer;
+    height: 19px;
+}
+.containor2 label span p{
+    font-size: 0.9rem;
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 250px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color: #04383f;
+    background-image: linear-gradient(115deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+.containor2 label span img{
+    width: 25px;
+    margin-right: 10px;
+    height: 25px;
+}
+.containor2 .gemini-containor {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.containor2 .gemini img {
+    animation: move 1s infinite linear;
+}
+
+@keyframes move {
+    0% {
+        margin-bottom: 0px;
+    }
+    50% {
+        margin-bottom: 3px;
+    }
+    100% {
+        margin-top: 3px;
+    }
+}
+
+.containor .main-page .card {
+    /* border: 0.1px solid blueviolet; */
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: end; */
+}
+
+
+/* card-1 */
+
+.containor .main-page .card .card-1 {
+    /* border: 0.1px solid red;  */
+    max-width: 150px;
+    min-height: 120px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(224, 224, 224);
+}
+
+.containor .main-page .card .card-1 label p {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containor .main-page .card .card-1 label {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.containor .main-page .card .card-1 label img {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    mix-blend-mode: multiply;
+}
+
+
+/* card - 2 */
+
+.containor .main-page .card .card-2 {
+    /* border: 0.1px solid red;  */
+    max-width: 150px;
+    min-height: 120px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containor .main-page .card .card-2 label p {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containor .main-page .card .card-2 label {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.containor .main-page .card .card-2 label img {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+
+/* card-3*/
+
+.containor .main-page .card .card-3 {
+    /* border: 0.1px solid red;  */
+    max-width: 150px;
+    min-height: 120px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(224, 224, 224);
+}
+
+.containor .main-page .card .card-3 label p {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containor .main-page .card .card-3 label {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.containor .main-page .card .card-3 label img {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+
+/*card-4*/
+
+.containor .main-page .card .card-4 {
+    /* border: 0.1px solid red;  */
+    max-width: 150px;
+    min-height: 120px;
+    margin-top: 2px;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 15px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containor .main-page .card .card-4 label p {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containor .main-page .card .card-4 label {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.containor .main-page .card .card-4 label img {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    mix-blend-mode: multiply;
+}
+
+
+/* .containor .main-page .containor2 {
+    border: 0.1px solid red;
+} */
+
+.containor .main-page .containor2 .gemini-containor {
+    /* border: 0.1px solid red; */
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    height: auto;
+    /* width: 100%; */
+}
+
+.containor .main-page .containor2 .gemini-containor .gemini {
+    margin-top: 5px;
+}
+
+.containor .main-page .containor2 .gemini-containor .message {
+    width: auto;
+    margin-top: 10px;
+    max-height: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.containor .main-page .containor2 .message p {
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6168a9;
+}
+
+.containor .main-page .containor2 .message p b {
+    color: #9147ff;
+}
+
+
+/* message */
+
+
+/* input section */
+
+.containor .main-page .input-section {
+    display: flex;
+    /* border: 0.1px solid red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containor .main-page .input-section div {
+    /* border: 0.1px solid rgb(55, 24, 29); */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.containor .main-page .input-section input {
+    padding: 12px 50px;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 0.1px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    border-radius: 50px;
+    background: #dee1e2;
+    display: block;
+     :hover {
+        border-color: #ccc;
+    }
+     :focus {
+        border-color: #9147ff;
+        background: #fff;
+    }
+}
+
+.containor .main-page .input-section input::placeholder {
+    text-align: center;
+}
+
+.containor .main-page .input-section img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:760px) {
+    .containor .main-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 0.1px solid red; */
+    }
+    .containor .main-page .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* align-items: center; */
+    }
+}

@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containor {
+    /* border: 0.1px solid red; */
+    min-height: 600px;
+}
+
+.containor .about {
+    /* border: 0.1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.containor .about .label1 {
+    /* border: 0.1px solid brown; */
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.containor .about .label1 h1 {
+    background: -webkit-linear-gradient(115deg, #8dcdd4, #ef7283);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    font-weight: 200;
+    margin-left: 2px;
+}
+
+.containor .about .label1 h1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.containor .about .label1 p {
+    font-size: 0.9rem;
+    margin-left: 2px;
+    color: slategrey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containor .about .label1 p b {
+    color: #72b9ef;
+}
+
+.containor .about .label1 h2 {
+    background: -webkit-linear-gradient(115deg, #8dcdd4, #ef7283);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+.containor .about .label2 {
+    /* border: 0.1px solid red; */
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.containor .about .label2 h1 {
+    background: -webkit-linear-gradient(115deg, #05b9cd, #ef7283);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+
+.containor .about .label2 h2 {
+    /* color: #1665a2; */
+    color: transparent;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    background: url("/public/IMG/Mobile Masthead_768x1000_AI Chatbots without Programming.jpg");
+    -webkit-background-clip: text;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containor .about .label2 h1 {
+    color: #1665a2;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.containor .about .label2 p {
+    font-size: 0.9rem;
+    margin-left: 2px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    color: slategrey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containor .about .label2 p a {
+    font-size: 1rem;
+    color: blueviolet;
+}
+
+.containor .about .label2 p b {
+    color: #72b9ef;
+    margin-right: 5px;
+}
