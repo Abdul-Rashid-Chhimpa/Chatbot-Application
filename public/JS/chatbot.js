@@ -152,4 +152,6 @@ async function generateContent() {
         console.error("Error:", error);
         // responseDiv.textContent = "Error communicating with the Gemini API.";
     }
+     spiner.remove();
+    SpinnerSpan.remove();
 };
